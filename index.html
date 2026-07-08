@@ -4,60 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
+<header>
 
-        <div class="menu-direita">
+    <div class="menu">
+        <a href="#">Gmail</a>
+        <a href="#">Imagens</a>
 
-            <a href="https://mail.google.com">Gmail</a>
-
-            <a href="https://images.google.com">Imagens</a>
-
-            <button class="apps">&#8942;</button>
-
-            <button class="login">Fazer login</button>
-
+        <div class="caixa-icone">
+            <span class="material-icons">apps</span>
         </div>
 
-    </header>
+        <button class="botao-login">
+            Fazer login
+        </button>
+    </div>
 
-    <main>
+</header>
 
-        <img
-            class="logo"
-            src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
-            alt="Google">
+<main>
 
-    </main>
+    <img
+        class="logo-google"
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google"
+    >
 
-    <footer>
+    <div class="caixa-input">
 
-        <div class="pais">
-            Brasil
+        <span class="material-icons icone-pesquisa">search</span>
+
+        <input
+            class="input-pesquisa"
+            type="text"
+            placeholder="Pesquise no Google"
+        >
+
+        <div class="caixa-teclado">
+            <span class="material-icons">keyboard</span>
         </div>
 
-        <div class="rodape">
+        <span class="material-icons microfone">mic</span>
 
-            <div class="esquerda">
-                <a href="#">Sobre</a>
-                <a href="#">Publicidade</a>
-                <a href="#">Negócios</a>
-                <a href="#">Como funciona a Pesquisa</a>
-            </div>
+    </div>
 
-            <div class="direita">
-                <a href="#">Privacidade</a>
-                <a href="#">Termos</a>
-                <a href="#">Configurações</a>
-            </div>
+    <div class="caixa-botoes">
+        <button class="botao">Pesquisa Google</button>
+        <button class="botao">Estou com sorte</button>
+    </div>
 
+</main>
+
+<footer>
+
+    <div class="pais">
+        Brasil
+    </div>
+
+    <div class="rodape">
+
+        <div class="rodape-esquerda">
+            <a href="#">Publicidade</a>
+            <a href="#">Negócios</a>
+            <a href="#">Sobre</a>
+            <a href="#">Como funciona a Pesquisa</a>
         </div>
 
-    </footer>
+        <div class="rodape-direita">
+            <a href="#">Privacidade</a>
+            <a href="#">Termos</a>
+            <a href="#">Configurações</a>
+        </div>
+
+    </div>
+
+</footer>
 
 </body>
 </html>
